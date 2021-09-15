@@ -1,0 +1,53 @@
+body {
+    font-size: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+.menu > li:first-child a {
+    color: rgb(75, 255, 75);
+}
+
+.menu > li:nth-child(odd) {
+    font-size: 1.5em;
+}
+
+.menu > li:nth-child(even) {
+    font-size: 2em;
+}
+
+.menu > li:nth-child(3n+1) {
+    background: yellow;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+li::before {
+    content: "-";
+    margin: 5px;
+}
+
+.paragraph > h3:first-child {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+.paragraph > div > p {
+    color: red;
+}
+
+.paragraph > p:nth-child(7) {
+    color:  green;
+}
+
+.paragraph > .yellow {
+    color: yellow;
+}
+

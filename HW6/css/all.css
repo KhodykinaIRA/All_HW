@@ -1,0 +1,41 @@
+h2 {
+    margin: 25px 0 25px 15px;
+    box-sizing: content-box;
+}
+
+.title {
+    width: 300px;
+    height: 200px;
+    padding: 5px 10px 15px 15px;
+    margin: 10px 15px 10px 15px;
+    border-width: 5px;
+    border-color: green;
+    border-top-style: solid ;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    box-sizing: border-box;
+}
+
+.text {
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+div > p {
+    text-align: justify;
+}
+
+.img1 {
+    width: 260px;
+    float: left;
+    box-sizing: content-box;
+    margin: 0 15px 0 0;
+}
+
+.img2 {
+    width: 200px;
+    float: right;
+    box-sizing: content-box;
+    margin: 15px 0 0 15px;
+}

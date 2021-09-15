@@ -1,0 +1,47 @@
+blockquote p {
+    font-family: Century Gothic;
+    color: #fd0000;
+    padding: 15px;
+    background: #E8E8E8;
+    border-radius: 5px;
+}
+
+a[href^="https://"] {
+    color: #f00;
+}
+
+.list [href^="http:"]{
+    color: #ff8d00; 
+}
+
+ul~p {
+    font-size: 26px;
+}
+
+a[title] {
+    border: 1px solid #067b09;
+}
+
+div>h3:first-child {
+    color: pink;
+}
+
+.text-box div>p {
+    color: red;
+}
+
+#greycol {
+    color: grey;
+}
+
+h3[title] {
+    color: blue;
+}
+
+h3[title] + p {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}

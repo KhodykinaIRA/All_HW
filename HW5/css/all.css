@@ -1,0 +1,42 @@
+.bg-box {
+    width: auto;
+    height: 900px;
+    background: 
+        url('image/trava.png') bottom / 200px auto repeat-x,
+        url('image/dom.jpg') center no-repeat,
+        url('image/lamp.png') top / auto 50px repeat-x,
+        url('image/Ёжик.png') left / 30px auto repeat-y,
+        url('image/пончик.png') right / 30px auto repeat-y;
+    background-color: green;
+}
+
+div.poem {
+    margin: 50px;
+    width: 700px;
+}
+
+.poem > p {
+    font-size: 20px;
+    line-height: 25px;
+    text-indent: 40px;
+    letter-spacing: 1px;
+    font-family: century gothic;
+    word-spacing: 5px;
+}
+
+div[class^='box'] {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background: linear-gradient(to bottom, #27c642 0%,#27c642 20%,#ffffff 20%,#ffffff 40%,#ffffff 40%,#27c642 40%,#27c642 60%,#ffffff 60%,#ffffff 80%,#ffffff 80%,#27c642 80%,#27c642 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.box2 {
+    background: linear-gradient(135deg, #000000 0%,#000000 20%,#a5a5a5 20%,#a5a5a5 80%,#000000 80%,#000000 80%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.box3 {
+    background: radial-gradient(ellipse at center, #ff0004 0%,#ff0004 15%,#000000 15%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
